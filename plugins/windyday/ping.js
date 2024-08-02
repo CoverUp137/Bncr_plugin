@@ -9,7 +9,7 @@
  * @public ture
  * @priority 9999
  * @disable false
- * @classification ["命令"]
+ * @classification ["ping"]
  */
 
 const { exec } = require('child_process');
