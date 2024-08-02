@@ -22,28 +22,6 @@
     "id": "ZRO4Qkz2w+DWiNyxrfZ/BERbbF0=",
     "isChatPlugin": false
   },
-  "rRQZnuMU5MFklnz9Du+cim8GKkQ=": {
-    "type": "github",
-    "name": "ping",
-    "author": "windyday",
-    "team": "红灯区",
-    "version": "1.0.3",
-    "description": "执行 ping dns",
-    "classification": [
-      "ping"
-    ],
-    "filename": "ping.js",
-    "fileDir": "/plugins/windyday/ping.js",
-    "systemVersionRange": "",
-    "isCron": false,
-    "isAdapter": false,
-    "isMod": false,
-    "isService": false,
-    "isAuthentication": false,
-    "isEncPlugin": false,
-    "id": "rRQZnuMU5MFklnz9Du+cim8GKkQ=",
-    "isChatPlugin": true
-  },
   "F8vTndsKYxW1s7OuM2oVyh82X90=": {
     "type": "github",
     "name": "二刺螈图片",
