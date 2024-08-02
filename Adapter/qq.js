@@ -4,7 +4,7 @@
  * @name qq
  * @team Bncr团队
  * @version 1.0.3
- * @description 外置qq机器人适配器，添加同意好友开关，添加入群同意开关，添加入群欢迎词
+ * @description 外置qq机器人适配器，添加同意好友开关，添加入群同意开关，添加入群欢迎词,改的垃圾，将就用吧
  * @adapter true
  * @public true
  * @disable false
@@ -12,11 +12,9 @@
  * @classification ["官方适配器"]
  * @Copyright ©2023 Aming and Anmours. All rights reserved
  * Unauthorized copying of this file, via any medium is strictly prohibited
- * 1.0.3更新说明: 添加同意好友开关，添加入群同意开关，添加入群欢迎词
  */
 
 
-/* 配置构造器 */
 /* 配置构造器 */
 const jsonSchema = BncrCreateSchema.object({
   enable: BncrCreateSchema.boolean().setTitle('是否开启适配器').setDescription('设置为关则不加载该适配器').setDefault(false),
