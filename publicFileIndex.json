@@ -1,27 +1,5 @@
 {
   "annotation": "该文件由系统自动生成. 用于插件市场索引,请勿编辑该文件中的任何内容",
-  "Q/yh/PVYOCfGlwvzXx7S0Vmo+tY=": {
-    "type": "github",
-    "name": "HumanTG",
-    "author": "windyday",
-    "team": "Bncr团队",
-    "version": "1.0.6",
-    "description": "HumanTG适配器",
-    "classification": [
-      "官方适配器"
-    ],
-    "filename": "HumanTG.js",
-    "fileDir": "/Adapter/HumanTG.js",
-    "systemVersionRange": "",
-    "isCron": false,
-    "isAdapter": true,
-    "isMod": false,
-    "isService": false,
-    "isAuthentication": false,
-    "isEncPlugin": false,
-    "id": "Q/yh/PVYOCfGlwvzXx7S0Vmo+tY=",
-    "isChatPlugin": false
-  },
   "ZRO4Qkz2w+DWiNyxrfZ/BERbbF0=": {
     "type": "github",
     "name": "qq",
@@ -42,28 +20,6 @@
     "isAuthentication": false,
     "isEncPlugin": false,
     "id": "ZRO4Qkz2w+DWiNyxrfZ/BERbbF0=",
-    "isChatPlugin": false
-  },
-  "Kxf77Y5lvlQunLFTaxh8Aq5TSmI=": {
-    "type": "github",
-    "name": "wechaty",
-    "author": "windyday",
-    "team": "红灯区",
-    "version": "1.0.6",
-    "description": "wx机器人内置适配器，微信需要实名，修改于寒佬的脚本，删除发消息和心跳，只监听和执行脚本。仅限自用",
-    "classification": [
-      "官方适配器"
-    ],
-    "filename": "wechaty.js",
-    "fileDir": "/Adapter/wechaty.js",
-    "systemVersionRange": "",
-    "isCron": false,
-    "isAdapter": true,
-    "isMod": false,
-    "isService": false,
-    "isAuthentication": false,
-    "isEncPlugin": false,
-    "id": "Kxf77Y5lvlQunLFTaxh8Aq5TSmI=",
     "isChatPlugin": false
   },
   "rRQZnuMU5MFklnz9Du+cim8GKkQ=": {
