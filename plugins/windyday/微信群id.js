@@ -7,7 +7,7 @@
  * @rule ^wx ([^ \n]+)$
  * @admin true
  * @public true
- * @priority 9999
+ * @priority 1000
  * @disable false
  * @classification ["微信id"]
  */
