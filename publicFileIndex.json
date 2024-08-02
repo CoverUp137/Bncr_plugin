@@ -66,6 +66,28 @@
     "id": "Kxf77Y5lvlQunLFTaxh8Aq5TSmI=",
     "isChatPlugin": false
   },
+  "rRQZnuMU5MFklnz9Du+cim8GKkQ=": {
+    "type": "github",
+    "name": "ping",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.3",
+    "description": "执行 ping 命令并返回结果",
+    "classification": [
+      "ping"
+    ],
+    "filename": "ping.js",
+    "fileDir": "/plugins/windyday/ping.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "id": "rRQZnuMU5MFklnz9Du+cim8GKkQ=",
+    "isChatPlugin": true
+  },
   "bjUF4ALz3jHfYKD5lD89yxlnBsQ=": {
     "type": "github",
     "name": "微信群id",
