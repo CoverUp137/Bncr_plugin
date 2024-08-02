@@ -6,7 +6,7 @@
  * @description 获取微信群id
  * @rule ^wx ([^ \n]+)$
  * @admin true
- * @public false
+ * @public true
  * @priority 1000
  * @disable false
  * @classification ["微信id"]
