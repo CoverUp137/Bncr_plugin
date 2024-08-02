@@ -44,6 +44,50 @@
     "id": "rRQZnuMU5MFklnz9Du+cim8GKkQ=",
     "isChatPlugin": true
   },
+  "F8vTndsKYxW1s7OuM2oVyh82X90=": {
+    "type": "github",
+    "name": "二刺螈图片",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.0",
+    "description": "获取二刺螈图片",
+    "classification": [
+      "二刺螈图片"
+    ],
+    "filename": "二刺螈图片.js",
+    "fileDir": "/plugins/windyday/二刺螈图片.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "F8vTndsKYxW1s7OuM2oVyh82X90=",
+    "isChatPlugin": true
+  },
+  "3zhTDGyEKT2d0e0486EwpROhNv4=": {
+    "type": "github",
+    "name": "哔哩哔哩日榜",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.0",
+    "description": "获取哔哩哔哩日榜",
+    "classification": [
+      "排行榜"
+    ],
+    "filename": "哔哩哔哩日榜.js",
+    "fileDir": "/plugins/windyday/哔哩哔哩日榜.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "3zhTDGyEKT2d0e0486EwpROhNv4=",
+    "isChatPlugin": true
+  },
   "bjUF4ALz3jHfYKD5lD89yxlnBsQ=": {
     "type": "github",
     "name": "微信群id",
@@ -64,6 +108,94 @@
     "isAuthentication": false,
     "isEncPlugin": false,
     "id": "bjUF4ALz3jHfYKD5lD89yxlnBsQ=",
+    "isChatPlugin": true
+  },
+  "51iJnadRCL+7ulN1w8ATdQM+uiE=": {
+    "type": "github",
+    "name": "抖音热点榜单",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.0",
+    "description": "获取抖音热点榜单",
+    "classification": [
+      "排行榜"
+    ],
+    "filename": "抖音热点榜单.js",
+    "fileDir": "/plugins/windyday/抖音热点榜单.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "51iJnadRCL+7ulN1w8ATdQM+uiE=",
+    "isChatPlugin": true
+  },
+  "ghxknDOzmvZfzCCRcMXWFZuq3Fg=": {
+    "type": "github",
+    "name": "查IP",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.1",
+    "description": "查询IP地址信息",
+    "classification": [
+      "查ip"
+    ],
+    "filename": "查IP.js",
+    "fileDir": "/plugins/windyday/查IP.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "ghxknDOzmvZfzCCRcMXWFZuq3Fg=",
+    "isChatPlugin": true
+  },
+  "HAkURKeeqWtbVgczA+J551eHwj4=": {
+    "type": "github",
+    "name": "查域名",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.1",
+    "description": "查域名信息，命令: 查域名 baidu.com   不一定能查所有域名",
+    "classification": [
+      "查域名"
+    ],
+    "filename": "查域名.js",
+    "fileDir": "/plugins/windyday/查域名.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "HAkURKeeqWtbVgczA+J551eHwj4=",
+    "isChatPlugin": true
+  },
+  "x22vhLXKDD6H6wed9gLos/NY4Go=": {
+    "type": "github",
+    "name": "查备案",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.1",
+    "description": "查询备案信息，不一定都能查，当个乐",
+    "classification": [
+      "查备案"
+    ],
+    "filename": "查备案.js",
+    "fileDir": "/plugins/windyday/查备案.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "x22vhLXKDD6H6wed9gLos/NY4Go=",
     "isChatPlugin": true
   },
   "mRfyLoXOIKcuyKkUC1J3y4SQn28=": {
