@@ -6,7 +6,7 @@
  * @description 执行 ping 命令并返回结果
  * @rule ^ping ([^ \n]+)$
  * @admin true
- * @public ture
+ * @public true
  * @priority 9999
  * @disable false
  * @classification ["ping"]
