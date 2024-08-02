@@ -1,7 +1,7 @@
 /**
  * @author windyday
  * @name 青龙通知接口
- * @team Bncr团队
+ * @team Bncr团队 
  * @version 1.0.0
  * @description 用于青龙通知，修改于寒佬脚本，只推送中豆，用于推送恭喜这群B
  * @public true
