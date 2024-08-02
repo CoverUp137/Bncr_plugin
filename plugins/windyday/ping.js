@@ -3,7 +3,7 @@
  * @name ping
  * @team 红灯区
  * @version 1.0.3
- * @description 执行 ping 命令并返回结果
+ * @description ping dns用的，小玩具
  * @rule ^ping ([^ \n]+)$
  * @admin true
  * @public false
