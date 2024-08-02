@@ -3,7 +3,7 @@
  * @name 查域名
  * @team 红灯区
  * @version 1.0.1
- * @description 查域名信息，命令: 查域名 baidu.com   不一定能查所有域名
+ * @description whois域名信息，命令: 查域名 baidu.com  有些后缀不能查，免费的API，当个乐
  * @rule ^查域名 ([^ \n]+)$
  * @admin false
  * @public true
