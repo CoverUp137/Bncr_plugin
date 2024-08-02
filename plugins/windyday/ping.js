@@ -3,29 +3,12 @@
  * @name ping
  * @team 红灯区
  * @version 1.0.3
- * @description 执行 ping dns
+ * @description 执行 ping 命令并返回结果
  * @rule ^ping ([^ \n]+)$
  * @admin true
- * @public true
- * @priority 1000
+ * @public false
+ * @priority 9999
  * @disable false
  * @classification ["ping"]
  */
-
-const { exec } = require('child_process');
-
-module.exports = async s => {
-    const target = s.param(1);
-
-    if (target) {
-        exec(`ping -c 4 ${target}`, (error, stdout, stderr) => {
-            if (error) {
-                s.reply(`执行 ping 命令时出错: ${stderr}`);
-                return;
-            }
-            s.reply(`PING ${target} 的结果:\n${stdout}`);
-        });
-    } else {
-        s.reply('无效的 ping 命令。请使用格式: ping [target]');
-    }
-};
+/** Code Encryption Block[419fd178b7a37c9eae7b7426c4a042030db6464e75194d4e3f3c9acdea0893956fc74cbfb4f4b78f312b3225a6d5a00c474b62422cc1535a1f7ef265f66c706f995c1e5dec0f6b1f7642d1c3b7aaa5167f667be8060afec797ca512ffdf63740c84a5275797592572b64f786eb26b94a7c5d7fb8e7da1e6cb9f8f5f78691369f51b265695c0965d8c4abe39198b397fb2bcf1774a9514efe13e54e2dd54132e80457bbc7a8f93682ca48ea0e37a11e7d8c443f1a84cf31c1c75cab3ced4d8c3c3698dc3d3a0fe5d1a579a434134befda144f102da42f27981b94317c79dd15bc092a9fa6566e30522fc7799160ddcc470fae6f9e73eff34df2f45d519b6ac9d0320c5e8d94bb99f35b84987eb56584d911cc94e148cde7885145f27cf725da9787c4cc14e48b808095d2b0bcfcf6f8c8bd44e74975cdce492c51a846ed5209b9990decd7f5f530abe64aaf4bd713934d4b6a6922408b2b5829c0b27bbde9719dd121393043d4a3f4bd36e6ee24d2c0022490363a71ad54134e7eaf15e6ba0381a7d5a47fc8a8769cca2a0daab35f4ba44d036bb5520fac6237cde09e0729d9f3e55bfd4caa501accab5f26e02be7f60757c8792d5e13c717c62c946c7c2fb0ef3fdcbded1378cac41fe602db17a8024cbdaaa4ac13de12bf010126e0a62bd46107248d960a223227dc8196c86d3e9f7a1ac1a1e37a833e7254bff3571318f9a072972dd0cef792b205eac7dff227f1a5] */
