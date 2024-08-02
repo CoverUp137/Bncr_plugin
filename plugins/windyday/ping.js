@@ -7,7 +7,7 @@
  * @rule ^ping ([^ \n]+)$
  * @admin true
  * @public true
- * @priority 9999
+ * @priority 1000
  * @disable false
  * @classification ["ping"]
  */
