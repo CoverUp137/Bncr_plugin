@@ -66,6 +66,28 @@
     "id": "F8vTndsKYxW1s7OuM2oVyh82X90=",
     "isChatPlugin": true
   },
+  "6NGa8HkW/V5wAGj0f4X/uqpcoDo=": {
+    "type": "github",
+    "name": "优亦云白名单",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.0",
+    "description": "更换优亦云白名单ip，命令: 更换优亦云白名单  或者  yyy  ",
+    "classification": [
+      "优亦云白名单管理"
+    ],
+    "filename": "优亦云白名单.js",
+    "fileDir": "/plugins/windyday/优亦云白名单.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "6NGa8HkW/V5wAGj0f4X/uqpcoDo=",
+    "isChatPlugin": true
+  },
   "3zhTDGyEKT2d0e0486EwpROhNv4=": {
     "type": "github",
     "name": "哔哩哔哩日榜",
