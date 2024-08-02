@@ -66,28 +66,6 @@
     "id": "3zhTDGyEKT2d0e0486EwpROhNv4=",
     "isChatPlugin": true
   },
-  "bjUF4ALz3jHfYKD5lD89yxlnBsQ=": {
-    "type": "github",
-    "name": "微信群id",
-    "author": "windyday",
-    "team": "红灯区",
-    "version": "1.0.0",
-    "description": "获取微信群id",
-    "classification": [
-      "微信id"
-    ],
-    "filename": "微信群id.js",
-    "fileDir": "/plugins/windyday/微信群id.js",
-    "systemVersionRange": "",
-    "isCron": false,
-    "isAdapter": false,
-    "isMod": false,
-    "isService": false,
-    "isAuthentication": false,
-    "isEncPlugin": false,
-    "id": "bjUF4ALz3jHfYKD5lD89yxlnBsQ=",
-    "isChatPlugin": true
-  },
   "51iJnadRCL+7ulN1w8ATdQM+uiE=": {
     "type": "github",
     "name": "抖音热点榜单",
