@@ -1,0 +1,113 @@
+{
+  "annotation": "该文件由系统自动生成. 用于插件市场索引,请勿编辑该文件中的任何内容",
+  "Q/yh/PVYOCfGlwvzXx7S0Vmo+tY=": {
+    "type": "github",
+    "name": "HumanTG",
+    "author": "windyday",
+    "team": "Bncr团队",
+    "version": "1.0.6",
+    "description": "HumanTG适配器",
+    "classification": [
+      "官方适配器"
+    ],
+    "filename": "HumanTG.js",
+    "fileDir": "/Adapter/HumanTG.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": true,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "id": "Q/yh/PVYOCfGlwvzXx7S0Vmo+tY=",
+    "isChatPlugin": false
+  },
+  "ZRO4Qkz2w+DWiNyxrfZ/BERbbF0=": {
+    "type": "github",
+    "name": "qq",
+    "author": "windyday",
+    "team": "Bncr团队",
+    "version": "1.0.3",
+    "description": "外置qq机器人适配器",
+    "classification": [
+      "官方适配器"
+    ],
+    "filename": "qq.js",
+    "fileDir": "/Adapter/qq.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": true,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "id": "ZRO4Qkz2w+DWiNyxrfZ/BERbbF0=",
+    "isChatPlugin": false
+  },
+  "Kxf77Y5lvlQunLFTaxh8Aq5TSmI=": {
+    "type": "github",
+    "name": "wechaty",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.6",
+    "description": "wx机器人内置适配器，微信需要实名",
+    "classification": [
+      "官方适配器"
+    ],
+    "filename": "wechaty.js",
+    "fileDir": "/Adapter/wechaty.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": true,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "id": "Kxf77Y5lvlQunLFTaxh8Aq5TSmI=",
+    "isChatPlugin": false
+  },
+  "bjUF4ALz3jHfYKD5lD89yxlnBsQ=": {
+    "type": "github",
+    "name": "微信群id",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.0",
+    "description": "获取微信群id",
+    "classification": [
+      "微信id"
+    ],
+    "filename": "微信群id.js",
+    "fileDir": "/plugins/windyday/微信群id.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "id": "bjUF4ALz3jHfYKD5lD89yxlnBsQ=",
+    "isChatPlugin": true
+  },
+  "AwiRyQrpghb212TBnkUaRCb/Qcw=": {
+    "type": "github",
+    "name": "青龙通知接口",
+    "author": "windyday",
+    "team": "Bncr团队",
+    "version": "1.0.0",
+    "description": "用于青龙通知",
+    "classification": [
+      "青龙通知接口"
+    ],
+    "filename": "青龙通知接口.js",
+    "fileDir": "/plugins/windyday/青龙通知接口.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": false,
+    "id": "AwiRyQrpghb212TBnkUaRCb/Qcw=",
+    "isChatPlugin": true
+  }
+}
