@@ -6,7 +6,7 @@
  * @description ping dns用的，小玩具
  * @rule ^ping ([^ \n]+)$
  * @admin true
- * @public false
+ * @public true
  * @priority 1000
  * @disable false
  * @classification ["ping"]
