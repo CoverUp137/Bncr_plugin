@@ -28,7 +28,7 @@
     "author": "windyday",
     "team": "Bncr团队",
     "version": "1.0.3",
-    "description": "外置qq机器人适配器",
+    "description": "外置qq机器人适配器，添加同意好友开关，添加入群同意开关，添加入群欢迎词",
     "classification": [
       "官方适配器"
     ],
@@ -50,7 +50,7 @@
     "author": "windyday",
     "team": "红灯区",
     "version": "1.0.6",
-    "description": "wx机器人内置适配器，微信需要实名",
+    "description": "wx机器人内置适配器，微信需要实名，修改于寒佬的脚本，删除发消息和心跳，只监听和执行脚本。仅限自用",
     "classification": [
       "官方适配器"
     ],
@@ -88,13 +88,13 @@
     "id": "bjUF4ALz3jHfYKD5lD89yxlnBsQ=",
     "isChatPlugin": true
   },
-  "AwiRyQrpghb212TBnkUaRCb/Qcw=": {
+  "mRfyLoXOIKcuyKkUC1J3y4SQn28=": {
     "type": "github",
     "name": "青龙通知接口",
     "author": "windyday",
-    "team": "Bncr团队",
+    "team": "Bncr团队 ",
     "version": "1.0.0",
-    "description": "用于青龙通知",
+    "description": "用于青龙通知，修改于寒佬脚本，只推送中豆，用于推送恭喜这群B",
     "classification": [
       "青龙通知接口"
     ],
@@ -107,7 +107,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": false,
-    "id": "AwiRyQrpghb212TBnkUaRCb/Qcw=",
+    "id": "mRfyLoXOIKcuyKkUC1J3y4SQn28=",
     "isChatPlugin": true
   }
 }
