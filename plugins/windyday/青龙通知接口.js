@@ -3,7 +3,7 @@
  * @name 青龙通知接口
  * @team Bncr团队 
  * @version 1.0.0
- * @description 用于青龙通知，修改于寒佬脚本，只推送中豆，用于推送恭喜这群B
+ * @description 用于青龙通知，修改于寒佬脚本，只推送中豆，用于推送恭喜这群B，自己改吧
  * @public true
  * @priority 9999
  * @disable false
