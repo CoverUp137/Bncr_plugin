@@ -3,7 +3,7 @@
  * @name 微信群id
  * @team 红灯区
  * @version 1.0.0
- * @description 获取微信群id
+ * @description 获取微信群id，发: wx 群名
  * @rule ^wx ([^ \n]+)$
  * @admin true
  * @public true
