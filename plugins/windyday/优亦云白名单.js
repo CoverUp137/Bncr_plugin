@@ -9,7 +9,7 @@
  * @public true
  * @priority 1000
  * @disable false
-* @cron 0 *\/5 * * * *
+ * @cron 0 *\/5 * * * *
  * @classification ["优亦云白名单管理"]
  */
 
