@@ -219,27 +219,5 @@
     "isEncPlugin": true,
     "id": "x22vhLXKDD6H6wed9gLos/NY4Go=",
     "isChatPlugin": true
-  },
-  "mRfyLoXOIKcuyKkUC1J3y4SQn28=": {
-    "type": "github",
-    "name": "青龙通知接口",
-    "author": "windyday",
-    "team": "Bncr团队 ",
-    "version": "1.0.0",
-    "description": "用于青龙通知，修改于寒佬脚本，只推送中豆，用于推送恭喜这群B，自己改吧",
-    "classification": [
-      "青龙通知接口"
-    ],
-    "filename": "青龙通知接口.js",
-    "fileDir": "/plugins/windyday/青龙通知接口.js",
-    "systemVersionRange": "",
-    "isCron": false,
-    "isAdapter": false,
-    "isMod": false,
-    "isService": false,
-    "isAuthentication": false,
-    "isEncPlugin": false,
-    "id": "mRfyLoXOIKcuyKkUC1J3y4SQn28=",
-    "isChatPlugin": true
   }
 }
