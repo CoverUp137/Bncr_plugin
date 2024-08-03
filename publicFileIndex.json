@@ -22,6 +22,28 @@
     "id": "ZRO4Qkz2w+DWiNyxrfZ/BERbbF0=",
     "isChatPlugin": false
   },
+  "Cl0SH6i8CGRtjSJoZPgury1NQLY=": {
+    "type": "github",
+    "name": "IP变更执行命令",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.0",
+    "description": "当IP发生变化时执行自定义命令",
+    "classification": [
+      "IP变更执行命令"
+    ],
+    "filename": "IP变更执行命令.js",
+    "fileDir": "/plugins/windyday/IP变更执行命令.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "Cl0SH6i8CGRtjSJoZPgury1NQLY=",
+    "isChatPlugin": true
+  },
   "rRQZnuMU5MFklnz9Du+cim8GKkQ=": {
     "type": "github",
     "name": "ping",
