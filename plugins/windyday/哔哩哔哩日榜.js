@@ -3,7 +3,7 @@
  * @name 哔哩哔哩日榜
  * @team 红灯区
  * @version 1.0.0
- * @description 获取哔哩哔哩日榜
+ * @description 命令: 哔哩哔哩日榜
  * @rule ^哔哩哔哩日榜$
  * @admin false
  * @public true
