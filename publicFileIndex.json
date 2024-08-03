@@ -204,7 +204,7 @@
     "author": "windyday",
     "team": "红灯区",
     "version": "1.0.1",
-    "description": "查询备案信息，不一定都能查，当个乐",
+    "description": "查询备案信息，不一定都能查，当个乐，命令: 查备案 baidu.com",
     "classification": [
       "查备案"
     ],
