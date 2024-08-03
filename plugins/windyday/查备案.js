@@ -3,7 +3,7 @@
  * @name 查备案
  * @team 红灯区
  * @version 1.0.1
- * @description 查询备案信息，不一定都能查，当个乐
+ * @description 查询备案信息，不一定都能查，当个乐，命令: 查备案 baidu.com
  * @rule ^查备案 ([^ \n]+)$
  * @admin false
  * @public true
