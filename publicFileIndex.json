@@ -116,7 +116,7 @@
     "author": "windyday",
     "team": "红灯区",
     "version": "1.0.0",
-    "description": "获取微信群id",
+    "description": "获取微信群id，发: wx 群名",
     "classification": [
       "微信id"
     ],
