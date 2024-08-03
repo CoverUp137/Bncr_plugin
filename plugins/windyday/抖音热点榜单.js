@@ -3,7 +3,7 @@
  * @name 抖音热点榜单
  * @team 红灯区
  * @version 1.0.0
- * @description 获取抖音热点榜单
+ * @description 命令: 抖音热点榜单
  * @rule ^抖音热点榜单$
  * @admin false
  * @public true
