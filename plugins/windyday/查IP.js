@@ -3,7 +3,7 @@
  * @name 查IP
  * @team 红灯区
  * @version 1.0.1
- * @description 查询IP地址信息
+ * @description 查询IP信息，命令: 查ip ip地址
  * @rule ^查IP ([^ \n]+)$
  * @rule ^查ip ([^ \n]+)$
  * @admin false
