@@ -3,7 +3,7 @@
  * @name 优亦云白名单
  * @team 红灯区
  * @version 1.0.0
- * @description 更换优亦云白名单ip，命令: 更换优亦云白名单  或者  yyy  
+ * @description 更换优亦云白名单ip，命令: 更换优亦云白名单  或者  yyy   
  * @rule ^(更换优亦云白名单|yyy)$
  * @admin true
  * @public true
