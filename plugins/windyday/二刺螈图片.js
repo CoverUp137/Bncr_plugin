@@ -1,6 +1,6 @@
 /**
  * @author windyday
- * @name 二刺螈图片
+ * @name 二刺螈图片 
  * @team 红灯区
  * @version 1.0.0
  * @description 获取二刺螈图片，命令: 来图
