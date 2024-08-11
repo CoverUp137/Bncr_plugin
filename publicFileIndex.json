@@ -49,7 +49,7 @@
     "name": "优亦云白名单",
     "author": "windyday",
     "team": "红灯区",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "更换优亦云白名单ip，命令: 更换优亦云白名单  或者  yyy  ",
     "classification": [
       "优亦云白名单管理"
