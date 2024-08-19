@@ -3,8 +3,7 @@
  * @name Gitlab仓库更新记录
  * @team 红灯区
  * @version 1.0.0
- * @description 查询某个Gitlab仓库更新记录，需bncr能爬墙
-  命令: 查询GitLab 或 查询gitlab
+ * @description 查询某个Gitlab仓库更新记录，需bncr能爬墙,命令: 查询GitLab 或 查询gitlab
 * @rule ^(查询GitLab|查询gitlab)$
  * @admin true
  * @public true
