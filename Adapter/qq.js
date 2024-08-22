@@ -1,9 +1,8 @@
 /**
- * This file is part of the App project.
  * @author windyday
  * @name qq
  * @team Bncr团队
- * @version 1.0.6
+ * @version 1.0.7
  * @description 外置qq机器人适配器，同意好友，同意加群，入群欢迎词
  * @adapter true
  * @public true
