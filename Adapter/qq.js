@@ -3,7 +3,7 @@
  * @name qq
  * @team Bncr团队
  * @version 1.1.0
- * @description 外置qq机器人适配器，同意好友，同意加群，入群欢迎词，支持伪装消息
+ * @description 外置qq机器人适配器，同意好友，同意加群，入群欢迎词，适配伪装消息
  * @adapter true
  * @public true
  * @disable false
