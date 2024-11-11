@@ -110,6 +110,28 @@
     "id": "6NGa8HkW/V5wAGj0f4X/uqpcoDo=",
     "isChatPlugin": true
   },
+  "3jajQ+xB5jWZV16+SeXFNbby9PM=": {
+    "type": "github",
+    "name": "域名剩余时间",
+    "author": "windyday",
+    "team": "红灯区",
+    "version": "1.0.1",
+    "description": "查询域名过期时间，方便续费。安装依赖:npm i whois dayjs  使用命令: 域名剩余时间 xxx.cn",
+    "classification": [
+      "查询域名剩余时间"
+    ],
+    "filename": "域名剩余时间.js",
+    "fileDir": "/plugins/windyday/域名剩余时间.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "3jajQ+xB5jWZV16+SeXFNbby9PM=",
+    "isChatPlugin": true
+  },
   "bjUF4ALz3jHfYKD5lD89yxlnBsQ=": {
     "type": "github",
     "name": "微信群id",
