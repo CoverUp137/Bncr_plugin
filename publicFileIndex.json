@@ -66,11 +66,11 @@
     "id": "xxZByf1/Jy5R1laA+cCvsP+aG7c=",
     "isChatPlugin": true
   },
-  "bwbt3otTQ/REs1TudD6Mrao4UYY=": {
+  "ayefJb//AnekvwIg4tzutNwWkw8=": {
     "type": "github",
     "name": "二刺螈图片",
     "author": "windyday",
-    "team": "奖励",
+    "team": "windyday",
     "version": "1.0.0",
     "description": "获取二刺螈图片，命令: 来图",
     "classification": [
@@ -85,7 +85,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": true,
-    "id": "bwbt3otTQ/REs1TudD6Mrao4UYY=",
+    "id": "ayefJb//AnekvwIg4tzutNwWkw8=",
     "isChatPlugin": true
   },
   "GcU1cBTrLPGPG1J1JjcNzNLii7s=": {
