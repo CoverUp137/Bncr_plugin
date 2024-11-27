@@ -88,11 +88,11 @@
     "id": "bwbt3otTQ/REs1TudD6Mrao4UYY=",
     "isChatPlugin": true
   },
-  "HRvXPu8+BpP6Ds9n1KYVvLRfhL8=": {
+  "GcU1cBTrLPGPG1J1JjcNzNLii7s=": {
     "type": "github",
     "name": "优亦云白名单",
     "author": "windyday",
-    "team": "奖励",
+    "team": "windyday",
     "version": "1.0.2",
     "description": "更换优亦云白名单ip，命令: 更换优亦云白名单  或者  yyy  ",
     "classification": [
@@ -107,7 +107,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": true,
-    "id": "HRvXPu8+BpP6Ds9n1KYVvLRfhL8=",
+    "id": "GcU1cBTrLPGPG1J1JjcNzNLii7s=",
     "isChatPlugin": true
   },
   "XVGODy3VI188Pd3usQTF4e3LJ4U=": {
