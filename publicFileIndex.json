@@ -22,11 +22,11 @@
     "id": "Gj9k5jAE5/taKleCb1lv96s+OnA=",
     "isChatPlugin": false
   },
-  "sgUyztGMZYifXzq3Z6wtU+RC7Bk=": {
+  "JC0z0ROcAfQ5dQH0NcnpL4MPEzM=": {
     "type": "github",
     "name": "Gitlab仓库更新记录",
     "author": "windyday",
-    "team": "红灯区",
+    "team": "windyday",
     "version": "1.0.5",
     "description": "Gitlab仓库更新记录，需bncr能爬墙,命令: 查询GitLab 或 查询gitlab",
     "classification": [
@@ -41,7 +41,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": true,
-    "id": "sgUyztGMZYifXzq3Z6wtU+RC7Bk=",
+    "id": "JC0z0ROcAfQ5dQH0NcnpL4MPEzM=",
     "isChatPlugin": true
   },
   "Nj/YlQ0hKAlCOsLmolIVcci+HpQ=": {
