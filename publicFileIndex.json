@@ -1,10 +1,10 @@
 {
   "annotation": "该文件由系统自动生成. 用于插件市场索引,请勿编辑该文件中的任何内容",
-  "YGDUt5CDIdOs0TzgJREuk/uR/98=": {
+  "Gj9k5jAE5/taKleCb1lv96s+OnA=": {
     "type": "github",
     "name": "qq",
     "author": "Aming",
-    "team": "奖励",
+    "team": "windyday",
     "version": "1.1.1",
     "description": "外置qq机器人适配器，同意好友，同意加群，入群欢迎词，适配伪装消息，群消息关键词撤回",
     "classification": [
@@ -19,7 +19,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": false,
-    "id": "YGDUt5CDIdOs0TzgJREuk/uR/98=",
+    "id": "Gj9k5jAE5/taKleCb1lv96s+OnA=",
     "isChatPlugin": false
   },
   "Uaj3BqSmLUftvgOh8iyzHYh/uYk=": {
