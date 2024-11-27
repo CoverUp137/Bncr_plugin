@@ -1,7 +1,7 @@
 /**
  * @author windyday
  * @name Gitlab仓库更新记录
- * @team windyday
+ * @team 奖励
  * @version 1.0.5
  * @description Gitlab仓库更新记录，需bncr能爬墙,命令: 查询GitLab 或 查询gitlab
  * @rule ^(查询GitLab|查询gitlab|查询Gitlab|查询GITLAB)$
