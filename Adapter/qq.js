@@ -1,5 +1,5 @@
 /**
- * @author Aming
+ * @author windyday
  * @name qq
  * @team Bncr团队
  * @version 1.1.1
