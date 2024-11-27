@@ -3,7 +3,7 @@
  * @name qq
  * @team windyday
  * @version 1.1.1
- * @description 外置qq机器人适配器，同意好友，同意加群，入群欢迎词，群消息关键词撤回
+ * @description 外置qq机器人适配器，同意好友，同意加群等
  * @adapter true
  * @public true
  * @disable false
