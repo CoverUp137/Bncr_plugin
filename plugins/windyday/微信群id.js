@@ -1,7 +1,7 @@
 /**
  * @author windyday
  * @name 微信群id
- * @team windyday
+ * @team 奖励
  * @version 1.0.0
  * @description 获取微信群id，发: wx 群名
  * @rule ^wx ([^ \n]+)$
