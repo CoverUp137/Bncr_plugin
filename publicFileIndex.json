@@ -22,11 +22,11 @@
     "id": "YGDUt5CDIdOs0TzgJREuk/uR/98=",
     "isChatPlugin": false
   },
-  "JC0z0ROcAfQ5dQH0NcnpL4MPEzM=": {
+  "Uaj3BqSmLUftvgOh8iyzHYh/uYk=": {
     "type": "github",
     "name": "Gitlab仓库更新记录",
     "author": "windyday",
-    "team": "windyday",
+    "team": "奖励",
     "version": "1.0.5",
     "description": "Gitlab仓库更新记录，需bncr能爬墙,命令: 查询GitLab 或 查询gitlab",
     "classification": [
@@ -41,14 +41,14 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": true,
-    "id": "JC0z0ROcAfQ5dQH0NcnpL4MPEzM=",
+    "id": "Uaj3BqSmLUftvgOh8iyzHYh/uYk=",
     "isChatPlugin": true
   },
-  "xxZByf1/Jy5R1laA+cCvsP+aG7c=": {
+  "K46IfMpBZlQ7thQ0Vz+rrnKdtJU=": {
     "type": "github",
     "name": "MD5转换工具",
     "author": "windyday",
-    "team": "windyday",
+    "team": "奖励",
     "version": "1.0.0",
     "description": "输入数值转换为32位的md5，可用于兔子面板规定的机器人需要32位的RabbitToken，也可以直接浏览网页搜索md5转换进行转换。使用命令: md5转换 数值",
     "classification": [
@@ -63,7 +63,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": true,
-    "id": "xxZByf1/Jy5R1laA+cCvsP+aG7c=",
+    "id": "K46IfMpBZlQ7thQ0Vz+rrnKdtJU=",
     "isChatPlugin": true
   },
   "ayefJb//AnekvwIg4tzutNwWkw8=": {
