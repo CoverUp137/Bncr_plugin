@@ -66,11 +66,11 @@
     "id": "K46IfMpBZlQ7thQ0Vz+rrnKdtJU=",
     "isChatPlugin": true
   },
-  "ayefJb//AnekvwIg4tzutNwWkw8=": {
+  "bwbt3otTQ/REs1TudD6Mrao4UYY=": {
     "type": "github",
     "name": "二刺螈图片",
     "author": "windyday",
-    "team": "windyday",
+    "team": "奖励",
     "version": "1.0.0",
     "description": "获取二刺螈图片，命令: 来图",
     "classification": [
@@ -85,14 +85,14 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": true,
-    "id": "ayefJb//AnekvwIg4tzutNwWkw8=",
+    "id": "bwbt3otTQ/REs1TudD6Mrao4UYY=",
     "isChatPlugin": true
   },
-  "GcU1cBTrLPGPG1J1JjcNzNLii7s=": {
+  "HRvXPu8+BpP6Ds9n1KYVvLRfhL8=": {
     "type": "github",
     "name": "优亦云白名单",
     "author": "windyday",
-    "team": "windyday",
+    "team": "奖励",
     "version": "1.0.2",
     "description": "更换优亦云白名单ip，命令: 更换优亦云白名单  或者  yyy  ",
     "classification": [
@@ -107,7 +107,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": true,
-    "id": "GcU1cBTrLPGPG1J1JjcNzNLii7s=",
+    "id": "HRvXPu8+BpP6Ds9n1KYVvLRfhL8=",
     "isChatPlugin": true
   },
   "tuTuzTeFUhfsk7+mKQleGb3u3lo=": {
