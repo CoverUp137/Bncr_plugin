@@ -1,7 +1,7 @@
 /**
  * @author windyday
  * @name 二刺螈图片 
- * @team windyday
+ * @team 奖励
  * @version 1.0.0
  * @description 获取二刺螈图片，命令: 来图
  * @rule ^来图$
