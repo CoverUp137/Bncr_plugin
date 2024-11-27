@@ -132,11 +132,11 @@
     "id": "tuTuzTeFUhfsk7+mKQleGb3u3lo=",
     "isChatPlugin": true
   },
-  "zAraCY0zHmhmLwZwUQ/nEGX8bzE=": {
+  "zqKHjwdzVCOT7KnMBnYxvNKjrJ4=": {
     "type": "github",
     "name": "微信群id",
     "author": "windyday",
-    "team": "奖励",
+    "team": "windyday",
     "version": "1.0.0",
     "description": "获取微信群id，发: wx 群名",
     "classification": [
@@ -151,7 +151,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": true,
-    "id": "zAraCY0zHmhmLwZwUQ/nEGX8bzE=",
+    "id": "zqKHjwdzVCOT7KnMBnYxvNKjrJ4=",
     "isChatPlugin": true
   }
 }
