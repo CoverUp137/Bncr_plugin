@@ -1,7 +1,7 @@
 /**
  * @author windyday
  * @name MD5转换工具
- * @team 奖励
+ * @team windyday
  * @version 1.0.0
  * @description 输入数值转换为32位的md5，可用于兔子面板规定的机器人需要32位的RabbitToken，也可以直接浏览网页搜索md5转换进行转换。使用命令: md5转换 数值
  * @rule ^md5转换 (.+)$
