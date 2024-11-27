@@ -1,7 +1,7 @@
 /**
  * @author Aming
  * @name qq
- * @team 奖励
+ * @team windyday
  * @version 1.1.1
  * @description 外置qq机器人适配器，同意好友，同意加群，入群欢迎词，适配伪装消息，群消息关键词撤回
  * @adapter true
