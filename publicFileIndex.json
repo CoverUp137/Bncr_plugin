@@ -44,11 +44,11 @@
     "id": "JC0z0ROcAfQ5dQH0NcnpL4MPEzM=",
     "isChatPlugin": true
   },
-  "K46IfMpBZlQ7thQ0Vz+rrnKdtJU=": {
+  "xxZByf1/Jy5R1laA+cCvsP+aG7c=": {
     "type": "github",
     "name": "MD5转换工具",
     "author": "windyday",
-    "team": "奖励",
+    "team": "windyday",
     "version": "1.0.0",
     "description": "输入数值转换为32位的md5，可用于兔子面板规定的机器人需要32位的RabbitToken，也可以直接浏览网页搜索md5转换进行转换。使用命令: md5转换 数值",
     "classification": [
@@ -63,7 +63,7 @@
     "isService": false,
     "isAuthentication": false,
     "isEncPlugin": true,
-    "id": "K46IfMpBZlQ7thQ0Vz+rrnKdtJU=",
+    "id": "xxZByf1/Jy5R1laA+cCvsP+aG7c=",
     "isChatPlugin": true
   },
   "bwbt3otTQ/REs1TudD6Mrao4UYY=": {
