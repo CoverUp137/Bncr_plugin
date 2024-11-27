@@ -1,7 +1,7 @@
 /**
  * @author windyday
  * @name 优亦云白名单
- * @team 奖励
+ * @team windyday
  * @version 1.0.2
  * @description 更换优亦云白名单ip，命令: 更换优亦云白名单  或者  yyy  
  * @rule ^(更换优亦云白名单|yyy)$
