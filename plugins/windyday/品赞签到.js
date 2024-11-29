@@ -3,7 +3,7 @@
  * @name 品赞签到
  * @team windyday
  * @version 1.1.0
- * @description 品赞每周签到
+ * @description 品赞每周签到积分
  * @rule ^(品赞签到)$
  * @admin true
  * @public true
