@@ -118,7 +118,7 @@
     "version": "1.1.0",
     "description": "品赞每周签到",
     "classification": [
-      "签到插件"
+      "品赞签到"
     ],
     "filename": "品赞签到.js",
     "fileDir": "/plugins/windyday/品赞签到.js",
