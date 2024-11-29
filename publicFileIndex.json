@@ -110,6 +110,28 @@
     "id": "GcU1cBTrLPGPG1J1JjcNzNLii7s=",
     "isChatPlugin": true
   },
+  "l43U3ksmXFOv+IElC/IdTEBItnk=": {
+    "type": "github",
+    "name": "品赞签到",
+    "author": "windyday",
+    "team": "windyday",
+    "version": "1.1.0",
+    "description": "品赞每周签到",
+    "classification": [
+      "签到插件"
+    ],
+    "filename": "品赞签到.js",
+    "fileDir": "/plugins/windyday/品赞签到.js",
+    "systemVersionRange": "",
+    "isCron": false,
+    "isAdapter": false,
+    "isMod": false,
+    "isService": false,
+    "isAuthentication": false,
+    "isEncPlugin": true,
+    "id": "l43U3ksmXFOv+IElC/IdTEBItnk=",
+    "isChatPlugin": true
+  },
   "tuTuzTeFUhfsk7+mKQleGb3u3lo=": {
     "type": "github",
     "name": "域名剩余时间",
