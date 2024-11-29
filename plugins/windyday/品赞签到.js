@@ -10,7 +10,7 @@
  * @priority 1000
  * @cron 0 5 15 *\/7 * *
  * @disable false
- * @classification ["签到插件"]
+ * @classification ["品赞签到"]
  */
  
  
