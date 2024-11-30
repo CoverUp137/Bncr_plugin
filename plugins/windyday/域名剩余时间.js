@@ -7,8 +7,8 @@
  * @rule ^域名剩余时间 (.+)
  * @admin true
  * @public true
- * @priority 1000
- * @disable false 
+ * @priority 9999
+ * @disable false
  * @classification ["查询域名剩余时间"]
  */
 
