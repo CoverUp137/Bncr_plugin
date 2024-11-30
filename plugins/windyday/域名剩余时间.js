@@ -6,8 +6,8 @@
  * @description 查询域名过期时间，方便续费。安装依赖:npm i whois dayjs  使用命令: 域名剩余时间 xxx.cn
  * @rule ^域名剩余时间 (.+)
  * @admin true
- * @public true
- * @priority 1000
+ * @public false
+ * @priority 9999
  * @disable false
  * @classification ["查询域名剩余时间"]
  */
