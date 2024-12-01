@@ -66,28 +66,6 @@
     "id": "xxZByf1/Jy5R1laA+cCvsP+aG7c=",
     "isChatPlugin": true
   },
-  "ayefJb//AnekvwIg4tzutNwWkw8=": {
-    "type": "github",
-    "name": "二刺螈图片",
-    "author": "windyday",
-    "team": "windyday",
-    "version": "1.0.0",
-    "description": "获取二刺螈图片，命令: 来图",
-    "classification": [
-      "二刺螈图片"
-    ],
-    "filename": "二刺螈图片.js",
-    "fileDir": "/plugins/windyday/二刺螈图片.js",
-    "systemVersionRange": "",
-    "isCron": false,
-    "isAdapter": false,
-    "isMod": false,
-    "isService": false,
-    "isAuthentication": false,
-    "isEncPlugin": true,
-    "id": "ayefJb//AnekvwIg4tzutNwWkw8=",
-    "isChatPlugin": true
-  },
   "GcU1cBTrLPGPG1J1JjcNzNLii7s=": {
     "type": "github",
     "name": "优亦云白名单",
