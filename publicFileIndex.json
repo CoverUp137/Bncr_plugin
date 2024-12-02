@@ -93,10 +93,10 @@
     "name": "品赞签到",
     "author": "windyday",
     "team": "windyday",
-    "version": "1.1.0",
-    "description": "品赞每周签到积分",
+    "version": "1.1.1",
+    "description": "品赞每周签到，在windyday文件夹下创建一个/public/Pinzan.log的日志文件",
     "classification": [
-      "品赞签到"
+      "品赞签到插件"
     ],
     "filename": "品赞签到.js",
     "fileDir": "/plugins/windyday/品赞签到.js",
