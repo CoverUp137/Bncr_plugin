@@ -177,45 +177,47 @@ async function ws(qq) {
     });
 
     // 发送消息方法
-    qq.reply = async function (replyInfo) {
-      try {
-        let uuid = randomUUID();
-        let body = {
-          action: 'send_msg',
-          params: {},
-          echo: uuid,
-        };
-        +replyInfo.groupId
-          ? (body.params.group_id = replyInfo.groupId)
-          : (body.params.user_id = replyInfo.userId);
-        if (replyInfo.type === 'text') {
-          body.params.message = replyInfo.msg.replace(/&amp;/g, '&');
-        } else if (replyInfo.type === 'image') {
-          body.params.message = `[CQ:image,file=${replyInfo.path}]`;
-        } else if (replyInfo.type === 'video') {
-          body.params.message = `[CQ:video,file=${replyInfo.path}]`;
-        }
-        ws.send(JSON.stringify(body));
-        return new Promise((resolve, reject) => {
-          listArr.push({ uuid, eventS });
-          let timeoutID = setTimeout(() => {
-            delListens(uuid);
-            eventS.emit(uuid, '');
-          }, 60 * 1000);
-          eventS.once(uuid, res => {
-            try {
-              delListens(uuid);
-              clearTimeout(timeoutID);
-              resolve(res || '');
-            } catch (e) {
-              console.error(e);
-            }
-          });
-        });
-      } catch (e) {
-        console.error('qq:发送消息失败', e);
-      }
+        qq.reply = async function (replyInfo) {
+  try {
+    let uuid = randomUUID();
+    let body = {
+      action: 'send_msg',
+      params: {},
+      echo: uuid,
     };
+
+    +replyInfo.groupId
+      ? (body.params.group_id = replyInfo.groupId)
+      : (body.params.user_id = replyInfo.userId);
+    if (replyInfo.type === 'text') {
+      body.params.message = replyInfo.msg; 
+    } else if (replyInfo.type === 'image') {
+      body.params.message = `[CQ:image,file=${replyInfo.path}]`;
+    } else if (replyInfo.type === 'video') {
+      body.params.message = `[CQ:video,file=${replyInfo.path}]`;
+    }
+
+    ws.send(JSON.stringify(body));
+    return new Promise((resolve, reject) => {
+      listArr.push({ uuid, eventS });
+      let timeoutID = setTimeout(() => {
+        delListens(uuid);
+        eventS.emit(uuid, '');
+      }, 60 * 1000);
+      eventS.once(uuid, res => {
+        try {
+          delListens(uuid);
+          clearTimeout(timeoutID);
+          resolve(res || '');
+        } catch (e) {
+          console.error(e);
+        }
+      });
+    });
+  } catch (e) {
+    console.error('qq:发送消息失败', e);
+  }
+};
 
     // 推送消息
     qq.push = async function (replyInfo) {
