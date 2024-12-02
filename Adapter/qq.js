@@ -18,34 +18,41 @@ const jsonSchema = BncrCreateSchema.object({
     .setTitle('是否开启适配器')
     .setDescription('设置为关则不加载该适配器')
     .setDefault(false),
+  
   mode: BncrCreateSchema.string()
     .setTitle('适配器模式')
     .setDescription('下面框框填入: <span style="color: blue;">ws</span><br>ntqq/napcat接收地址为: <span style="color: red;">ws://bncrip:9090/api/bot/qqws</span>')
     .setDefault('ws'),
+  
   autoApproveFriendRequest: BncrCreateSchema.boolean()
     .setTitle('是否自动同意好友请求')
     .setDescription('设置为开则自动同意所有的好友请求')
     .setDefault(false),
+  
   autoApproveGroupRequest: BncrCreateSchema.boolean()
     .setTitle('是否自动同意加群请求/邀请')
     .setDescription('设置为开则自动同意所有的加群请求和邀请<br><span style="color: red;">需要把机器人设置为管理员</span>')
     .setDefault(false),
+  
   enableWelcomeMessage: BncrCreateSchema.boolean()
     .setTitle('是否启用入群欢迎消息')
     .setDescription('')
     .setDefault(false),
+  
   welcomeMessage: BncrCreateSchema.string()
     .setTitle('')
     .setDescription('自定义入群后的欢迎消息，\\n为换行<br><span style="color: red;">需要把机器人设置为管理员</span>')
     .setDefault(''),
+  
   enableRecallMessage: BncrCreateSchema.boolean()
     .setTitle('是否启用群撤回消息功能')
     .setDescription('')
     .setDefault(false),
+  
   recallKeywords: BncrCreateSchema.string()
-  .setTitle('自定义撤回消息关键词')
-  .setDescription('Q群收到包含该关键词的消息时，执行撤回操作<br><span style="color: red;">多个关键词请用“|”分隔</span>')
-  .setDefault('')
+    .setTitle('自定义撤回消息关键词')
+    .setDescription('Q群收到包含该关键词的消息时，执行撤回操作<br><span style="color: red;">多个关键词请用“|”分隔</span>')
+    .setDefault('')
 });
 
 const ConfigDB = new BncrPluginConfig(jsonSchema);
@@ -56,9 +63,12 @@ module.exports = async () => {
     sysMethod.startOutLogs('未配置qq适配器,退出.');
     return;
   }
-  if (!ConfigDB?.userConfig?.enable) return sysMethod.startOutLogs('未启用外置qq 退出.');
-  let qq = new Adapter('qq');
 
+  if (!ConfigDB?.userConfig?.enable) {
+    return sysMethod.startOutLogs('未启用外置qq 退出.');
+  }
+
+  let qq = new Adapter('qq');
   qq.inlinemask = async function (msgInfo) {
     return qq.receive(msgInfo);
   };
@@ -88,7 +98,7 @@ async function ws(qq) {
 
       if (body.post_type === 'request' && body.request_type === 'friend') {
         if (ConfigDB.userConfig.autoApproveFriendRequest) {
-          const approve = true; 
+          const approve = true;
           const requestBody = {
             action: 'set_friend_add_request',
             params: {
@@ -104,12 +114,12 @@ async function ws(qq) {
 
       if (body.post_type === 'request' && body.request_type === 'group') {
         if (ConfigDB.userConfig.autoApproveGroupRequest) {
-          const approve = true; 
+          const approve = true;
           const requestBody = {
             action: 'set_group_add_request',
             params: {
               flag: body.flag,
-              sub_type: body.sub_type, 
+              sub_type: body.sub_type,
               approve: approve
             }
           };
@@ -154,6 +164,7 @@ async function ws(qq) {
 
       // 不是消息退出
       if (!body.post_type || body.post_type !== 'message') return;
+      
       let msgInfo = {
         userId: body.sender.user_id + '' || '',
         userName: body.sender.nickname || '',
@@ -163,61 +174,64 @@ async function ws(qq) {
         msgId: body.message_id + '' || '',
       };
 
-     if (msgInfo.groupId && msgInfo.groupId !== '0' && ConfigDB.userConfig.enableRecallMessage) {
-  const recallKeywords = ConfigDB.userConfig.recallKeywords.split('|').filter(Boolean); 
-  
-  if (recallKeywords.length > 0 && recallKeywords.some(keyword => msgInfo.msg.includes(keyword))) {
-    await qq.delMsg([msgInfo.msgId]);
-    sysMethod.startOutLogs(`撤回消息：来自发送者QQ：${msgInfo.userId}，包含关键词的消息：${msgInfo.msg}`);
-  } else if (recallKeywords.length === 0) {
-    sysMethod.startOutLogs('撤回关键词为空，跳过撤回操作。');
-  }
-}
+      if (msgInfo.groupId && msgInfo.groupId !== '0' && ConfigDB.userConfig.enableRecallMessage) {
+        const recallKeywords = ConfigDB.userConfig.recallKeywords.split('|').filter(Boolean); 
+
+        if (recallKeywords.length > 0 && recallKeywords.some(keyword => msgInfo.msg.includes(keyword))) {
+          await qq.delMsg([msgInfo.msgId]);
+          sysMethod.startOutLogs(`撤回消息：来自发送者QQ：${msgInfo.userId}，包含关键词的消息：${msgInfo.msg}`);
+        } else if (recallKeywords.length === 0) {
+          sysMethod.startOutLogs('撤回关键词为空，跳过撤回操作。');
+        }
+      }
+
       qq.receive(msgInfo);
     });
 
     // 发送消息方法
     qq.reply = async function (replyInfo) {
-  try {
-    let uuid = randomUUID();
-    let body = {
-      action: 'send_msg',
-      params: {},
-      echo: uuid,
-    };
+      try {
+        let uuid = randomUUID();
+        let body = {
+          action: 'send_msg',
+          params: {},
+          echo: uuid,
+        };
 
-    +replyInfo.groupId
-      ? (body.params.group_id = replyInfo.groupId)
-      : (body.params.user_id = replyInfo.userId);
-    if (replyInfo.type === 'text') {
-      body.params.message = replyInfo.msg; 
-    } else if (replyInfo.type === 'image') {
-      body.params.message = `[CQ:image,file=${replyInfo.path}]`;
-    } else if (replyInfo.type === 'video') {
-      body.params.message = `[CQ:video,file=${replyInfo.path}]`;
-    }
+        +replyInfo.groupId
+          ? (body.params.group_id = replyInfo.groupId)
+          : (body.params.user_id = replyInfo.userId);
 
-    ws.send(JSON.stringify(body));
-    return new Promise((resolve, reject) => {
-      listArr.push({ uuid, eventS });
-      let timeoutID = setTimeout(() => {
-        delListens(uuid);
-        eventS.emit(uuid, '');
-      }, 60 * 1000);
-      eventS.once(uuid, res => {
-        try {
-          delListens(uuid);
-          clearTimeout(timeoutID);
-          resolve(res || '');
-        } catch (e) {
-          console.error(e);
+        if (replyInfo.type === 'text') {
+          body.params.message = replyInfo.msg; 
+        } else if (replyInfo.type === 'image') {
+          body.params.message = `[CQ:image,file=${replyInfo.path}]`;
+        } else if (replyInfo.type === 'video') {
+          body.params.message = `[CQ:video,file=${replyInfo.path}]`;
         }
-      });
-    });
-  } catch (e) {
-    console.error('qq:发送消息失败', e);
-  }
-  };
+
+        ws.send(JSON.stringify(body));
+        return new Promise((resolve, reject) => {
+          listArr.push({ uuid, eventS });
+          let timeoutID = setTimeout(() => {
+            delListens(uuid);
+            eventS.emit(uuid, '');
+          }, 60 * 1000);
+
+          eventS.once(uuid, res => {
+            try {
+              delListens(uuid);
+              clearTimeout(timeoutID);
+              resolve(res || '');
+            } catch (e) {
+              console.error(e);
+            }
+          });
+        });
+      } catch (e) {
+        console.error('qq:发送消息失败', e);
+      }
+    };
 
     // 推送消息
     qq.push = async function (replyInfo) {
@@ -244,7 +258,7 @@ async function ws(qq) {
     };
   });
 
-  // 向/api/系统路由中添加路由
+    // 向/api/系统路由中添加路由
   router.get('/api/bot/qqws', (req, res) =>
     res.send({ msg: '这是Bncr 外置qq Api接口，你的get请求测试正常~，请用ws交互数据' })
   );
