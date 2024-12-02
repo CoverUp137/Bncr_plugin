@@ -2,7 +2,7 @@
  * @author Aming
  * @name qq
  * @team windyday
- * @version 1.1.1
+ * @version 1.1.2
  * @description 外置qq机器人适配器，同意好友，同意加群等
  * @adapter true
  * @public true
