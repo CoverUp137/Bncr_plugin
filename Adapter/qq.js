@@ -217,7 +217,7 @@ async function ws(qq) {
   } catch (e) {
     console.error('qq:发送消息失败', e);
   }
-};
+  };
 
     // 推送消息
     qq.push = async function (replyInfo) {
