@@ -177,7 +177,7 @@ async function ws(qq) {
     });
 
     // 发送消息方法
-        qq.reply = async function (replyInfo) {
+    qq.reply = async function (replyInfo) {
   try {
     let uuid = randomUUID();
     let body = {
